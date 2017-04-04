@@ -22,7 +22,7 @@
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
-          <button type="button" class="navbar-toggle collapsed visible-xs" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapsable-nav" aria-expanded="false">
             <span class="sr-only">Toggle navigation</span>
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
@@ -31,15 +31,15 @@
           <a class="navbar-brand" href="#">Food, LLC</a>
         </div> <!-- .navbar-header -->
         <div id="collapsable-nav" class="collapse navbar-collapse">
-           <ul id="nav-list" class="nav navbar-nav navbar-right">
+           <ul id="nav-list" class="nav navbar-nav navbar-right visible-xs">
             <li>
-              <a href="#chicken">Chicken</a>
+              <a href="#chicken" class="text-center">Chicken</a>
             </li>
             <li>
-              <a href="#">Beef</a>
+              <a href="#beef" class="text-center">Beef</a>
             </li>
             <li>
-              <a href="#">Sushi</a>
+              <a href="#sushi" class="text-center">Sushi</a>
             </li>
           </ul><!-- #nav-list -->
         </div><!-- .collapse .navbar-collapse -->
@@ -47,16 +47,24 @@
     </nav><!-- .navbar -->
   </header>
   
-  <h1 class="text-center">Our Menu</h1>
+  <h1 id="menu" class="text-center">Our Menu</h1>
   <div class="container">
-       <section id="chicken" class="col-xs-12">
-         <h2 class="text-center">Chicken</h2>
-         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum, arcu sed tristique faucibus, tortor sem faucibus eros, sodales interdum felis ligula at magna. Duis sit amet eros sit amet risus viverra laoreet. Integer quis euismod neque. Sed sodales bibendum venenatis. Ut ornare, arcu vel pulvinar cursus, enim ligula accumsan arcu, ut ultrices ligula tellus dictum ligula. Integer at lobortis purus. Quisque luctus leo nec lorem pulvinar congue. Morbi imperdiet aliquam leo sit amet interdum. Curabitur non gravida dolor. Proin consequat facilisis lacus fringilla porta. Nam eleifend, risus non pharetra facilisis, justo urna sagittis tellus, a efficitur neque elit nec eros. Pellentesque faucibus quam sit amet nulla accumsan, semper ullamcorper enim dignissim. Praesent egestas gravida neque sit amet porta. Etiam pharetra lectus non quam facilisis, non mattis elit convallis. Phasellus rutrum mi cursus, volutpat justo id, luctus ante.
-            Vivamus nulla ligula, malesuada ac orci vel, dapibus aliquam tellus. Sed et dolor arcu. Etiam vulputate massa iaculis convallis vulputate. Donec accumsan sed nulla ac mattis. Nullam tincidunt ante ante, quis ornare arcu aliquam a. Aliquam sed elit ligula. Vivamus pharetra consectetur rhoncus. Pellentesque tristique orci felis. Nulla in tempor massa.
-            Donec at lacinia elit, nec tincidunt nulla. Vivamus non dapibus magna, viverra tempor metus. Curabitur iaculis commodo libero, at sagittis eros egestas quis. Duis finibus rutrum mi. Sed et sagittis sem. Phasellus cursus purus eu arcu interdum, in tincidunt lorem fringilla. Nulla gravida eros nunc, vel rhoncus leo venenatis a. Nulla posuere augue sed lectus semper malesuada. Morbi lobortis libero magna, eget aliquam lacus auctor consectetur. Curabitur condimentum diam eu enim posuere cursus. In elit quam, aliquam ac euismod ut, facilisis ac nibh. Curabitur condimentum congue turpis non feugiat. Sed facilisis libero lectus, sed viverra enim gravida vitae. Maecenas tempor, mauris eget finibus viverra, erat nisl lacinia felis, ut ultrices quam libero ut arcu. Cras vel arcu maximus, eleifend sapien in, molestie ex.
-            Duis in commodo justo, vulputate sodales nisl. Nam at augue purus. Sed rutrum pulvinar ullamcorper. Nullam dignissim efficitur diam nec imperdiet. Suspendisse aliquam quam neque, vitae pretium purus congue quis. Integer ultrices magna ac convallis commodo. Nunc viverra turpis quis leo tempus, quis suscipit metus commodo. Donec molestie tellus ut augue scelerisque luctus. Donec et ante interdum, commodo lectus quis, hendrerit arcu. Nunc facilisis ligula ac velit varius ultrices. Aenean convallis consectetur lobortis. Pellentesque non placerat nibh. Aliquam venenatis pharetra neque, vitae tincidunt nulla pretium et. Praesent ut nisl mi. Aliquam quis convallis turpis. In mattis tortor elit, sit amet tempor eros venenatis eget.
-            Aliquam aliquam nibh eu libero egestas semper. Cras dapibus tempor odio non ultricies. Phasellus sed nunc dolor. Cras rhoncus sapien a ornare fringilla. Ut pharetra, dui eu accumsan aliquet, tortor turpis vulputate arcu, id vehicula purus leo fringilla magna. Nunc vitae orci libero. Cras semper leo augue, vel efficitur ante tempor nec. Nulla malesuada volutpat vulputate. Duis convallis egestas neque sit amet convallis. Cras nunc libero, euismod consequat aliquet ac, varius eu mi. Aenean tincidunt quis enim sed pellentesque. Suspendisse at suscipit eros. Ut vitae orci urna. Nullam rhoncus, lectus sed rhoncus semper, mauris mi accumsan metus, ac vehicula elit nisl sit amet ipsum. Vivamus finibus maximus tortor, sit amet viverra lectus convallis eu. Praesent id ex at quam maximus vestibulum et eget purus.
-         </p>
+     <section id="chicken" class="col-xs-12 col-sm-6 col-md-4">
+       <h3 class="text-center">Chicken</h3>
+       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent rutrum, arcu sed tristique faucibus, tortor sem faucibus eros, sodales interdum felis ligula at magna. Duis sit amet eros sit amet risus viverra laoreet. Integer quis euismod neque. Sed sodales bibendum venenatis. Ut ornare, arcu vel pulvinar cursus, enim ligula accumsan arcu, ut ultrices ligula tellus dictum ligula. Integer at lobortis purus. Quisque luctus leo nec lorem pulvinar congue. Morbi imperdiet aliquam leo sit amet interdum. Curabitur non gravida dolor. Proin consequat facilisis lacus fringilla porta. Nam eleifend, risus non pharetra facilisis, justo urna sagittis tellus, a efficitur neque elit nec eros. Pellentesque faucibus quam sit amet nulla accumsan, semper ullamcorper enim dignissim. Praesent egestas gravida neque sit amet porta. Etiam pharetra lectus non quam facilisis, non mattis elit convallis. Phasellus rutrum mi cursus, volutpat justo id, luctus ante.</p>
+       <p>Vivamus nulla ligula, malesuada ac orci vel, dapibus aliquam tellus. Sed et dolor arcu. Etiam vulputate massa iaculis convallis vulputate. Donec accumsan sed nulla ac mattis. Nullam tincidunt ante ante, quis ornare arcu aliquam a. Aliquam sed elit ligula. Vivamus pharetra consectetur rhoncus. Pellentesque tristique orci felis. Nulla in tempor massa.</p>
+       <p><a href="#menu">Back To Top</a></p>
+    </section>
+     <section id="beef" class="col-xs-12 col-sm-6 col-md-4">
+       <h3 class="text-center">Beef</h3>
+       <p>Donec at lacinia elit, nec tincidunt nulla. Vivamus non dapibus magna, viverra tempor metus. Curabitur iaculis commodo libero, at sagittis eros egestas quis. Duis finibus rutrum mi. Sed et sagittis sem. Phasellus cursus purus eu arcu interdum, in tincidunt lorem fringilla. Nulla gravida eros nunc, vel rhoncus leo venenatis a. Nulla posuere augue sed lectus semper malesuada. Morbi lobortis libero magna, eget aliquam lacus auctor consectetur. Curabitur condimentum diam eu enim posuere cursus. In elit quam, aliquam ac euismod ut, facilisis ac nibh. Curabitur condimentum congue turpis non feugiat. Sed facilisis libero lectus, sed viverra enim gravida vitae. Maecenas tempor, mauris eget finibus viverra, erat nisl lacinia felis, ut ultrices quam libero ut arcu. Cras vel arcu maximus, eleifend sapien in, molestie ex.</p>
+       <p><a href="#menu">Back To Top</a></p>
+     </section>
+     <section id="sushi" class="col-xs-12 col-sm-12 col-md-4">
+       <h3 class="text-center">Sushi</h3>
+       <p>Duis in commodo justo, vulputate sodales nisl. Nam at augue purus. Sed rutrum pulvinar ullamcorper. Nullam dignissim efficitur diam nec imperdiet. Suspendisse aliquam quam neque, vitae pretium purus congue quis. Integer ultrices magna ac convallis commodo. Nunc viverra turpis quis leo tempus, quis suscipit metus commodo. Donec molestie tellus ut augue scelerisque luctus. Donec et ante interdum, commodo lectus quis, hendrerit arcu. Nunc facilisis ligula ac velit varius ultrices. Aenean convallis consectetur lobortis. Pellentesque non placerat nibh. Aliquam venenatis pharetra neque, vitae tincidunt nulla pretium et. Praesent ut nisl mi. Aliquam quis convallis turpis. In mattis tortor elit, sit amet tempor eros venenatis eget.</p>
+       <p>Aliquam aliquam nibh eu libero egestas semper. Cras dapibus tempor odio non ultricies. Phasellus sed nunc dolor. Cras rhoncus sapien a ornare fringilla. Ut pharetra, dui eu accumsan aliquet, tortor turpis vulputate arcu, id vehicula purus leo fringilla magna. Nunc vitae orci libero. Cras semper leo augue, vel efficitur ante tempor nec. Nulla malesuada volutpat vulputate. Duis convallis egestas neque sit amet convallis. Cras nunc libero, euismod consequat aliquet ac, varius eu mi. Aenean tincidunt quis enim sed pellentesque. Suspendisse at suscipit eros. Ut vitae orci urna. Nullam rhoncus, lectus sed rhoncus semper, mauris mi accumsan metus, ac vehicula elit nisl sit amet ipsum. Vivamus finibus maximus tortor, sit amet viverra lectus convallis eu. Praesent id ex at quam maximus vestibulum et eget purus.</p>
+       <p><a href="#menu">Back To Top</a></p>
     </section>
   </div>
   <!-- jQuery (Bootstrap JS plugins depend on it) -->
